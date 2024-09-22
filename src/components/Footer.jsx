@@ -1,9 +1,11 @@
 import React from "react";
-import tesla from "/Users/aditya/laracode/src/assets/tesla-9-logo-svgrepo-com.png";
-import apple from "/Users/aditya/laracode/src/assets/apple-logo-svgrepo-com.png";
-import airbnb from "/Users/aditya/laracode/src/assets/[CITYPNG.COM]HD Gray Airbnb Official Logo Brand PNG Image - 3000x3000.png";
-import spotify from "/Users/aditya/laracode/src/assets/pngwing.com.png";
-import stripe from "/Users/aditya/laracode/src/assets/Stripe wordmark - white (small).png";
+import tesla from "../assets/tesla-9-logo-svgrepo-com.png";
+
+import apple from "../assets/apple-logo-svgrepo-com.png";
+import airbnb from "../assets/airbnb-logo.png"; // Renamed for clarity
+import spotify from "../assets/spotify-logo.png"; // Assuming correct path
+import stripe from "../assets/stripe-logo.png"; // Renamed to avoid spaces
+
 export default function Footer() {
   return (
     <>
