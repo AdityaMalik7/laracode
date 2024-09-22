@@ -11,31 +11,43 @@ export default function Footer() {
     <>
       <footer>
         <div className="bg-customGrey pt-10 pb-10">
-          {" "}
-          <ul className="flex justify-between items-center pl-36 pr-36">
-            <li>
-              {" "}
-              <img src={tesla} className="h-24 w-24" />
+          <ul className="flex flex-wrap justify-center sm:justify-between items-center px-4 sm:px-8 lg:px-36 gap-2">
+            <li className="mb-6 sm:mb-0">
+              <img
+                src={tesla}
+                className="h-20 w-20 sm:h-24 sm:w-24"
+                alt="Tesla"
+              />
             </li>
-            <li>
-              {" "}
-              <img src={apple} className="h-10 w-10" />
+            <li className="mb-6 sm:mb-0">
+              <img
+                src={apple}
+                className="h-8 w-8 sm:h-10 sm:w-10"
+                alt="Apple"
+              />
             </li>
-            <li>
-              {" "}
-              <img src={airbnb} className="h-24 w-24" />
+            <li className="mb-6 sm:mb-0">
+              <img
+                src={airbnb}
+                className="h-20 w-20 sm:h-24 sm:w-24"
+                alt="Airbnb"
+              />
             </li>
-            <li>
-              {" "}
-              <img src={spotify} className="h-11 w-11" />
+            <li className="mb-6 sm:mb-0">
+              <img
+                src={spotify}
+                className="h-10 w-10 sm:h-11 sm:w-11"
+                alt="Spotify"
+              />
             </li>
-            <li>
-              {" "}
-              <img src={stripe} className="h-14 w-fit " />
+            <li className="mb-6 sm:mb-0">
+              <img src={stripe} className="h-12 w-auto sm:h-14" alt="Stripe" />
             </li>
           </ul>
           <div className="pt-8 flex justify-center items-center text-customGray font-mono">
-            <p className="tracking-wider">Made with ♡ in 🇮🇳 by Aditya Malik </p>
+            <p className="tracking-wider text-center">
+              Made with ♡ in 🇮🇳 by Aditya Malik
+            </p>
           </div>
         </div>
       </footer>
