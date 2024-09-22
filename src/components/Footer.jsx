@@ -2,9 +2,9 @@ import React from "react";
 import tesla from "../assets/tesla-9-logo-svgrepo-com.png";
 
 import apple from "../assets/apple-logo-svgrepo-com.png";
-import airbnb from "../assets/airbnb-logo.png"; // Renamed for clarity
-import spotify from "../assets/spotify-logo.png"; // Assuming correct path
-import stripe from "../assets/stripe-logo.png"; // Renamed to avoid spaces
+import airbnb from "../assets/airbnb-logo.png";
+import spotify from "../assets/spotify-logo.png";
+import stripe from "../assets/stripe-logo.png";
 
 export default function Footer() {
   return (
@@ -34,6 +34,9 @@ export default function Footer() {
               <img src={stripe} className="h-14 w-fit " />
             </li>
           </ul>
+          <div className="pt-8 flex justify-center items-center text-customGray font-mono">
+            <p className="tracking-wider">Made with ♡ in 🇮🇳 by Aditya Malik </p>
+          </div>
         </div>
       </footer>
     </>
